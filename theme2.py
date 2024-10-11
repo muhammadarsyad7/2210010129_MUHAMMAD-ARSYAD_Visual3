@@ -1,5 +1,6 @@
 import PySimpleGUI as sg
 sg.theme("DarkRed1")
+sg.theme_text_color("#007FFF")
 window=sg.Window(title="profile",
                  layout=[[sg.Text("NPM          : 2210010129")],
                          [sg.Text("Nama         : MUHAMMAD ARSYAD")],
